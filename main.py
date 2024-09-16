@@ -17,17 +17,22 @@ def myfunction():
     bob.forward(50)
 
 
-
 def mifunction():
     bob = Turtle()
     bob.begin_fill()
     bob.setheading(0)
     bob.forward(30)
-    bob.left(120)S
+    bob.left(120)
     bob.forward(30)
     bob.left(120)
     bob.forward(30)
     bob.end_fill()
+
+    bob.forward(20)
+    bob.penup()
+    bob.goto(50, 50)
+    bob.pendown()
+    bob.forward(20)
 
     bob.setheading(90)
     bob.forward(30)
@@ -36,6 +41,16 @@ def mifunction():
     bob.right(45)
     bob.forward(30)
     bob.right(45)
+
+    bob.setheading(90)
+    bob.forward(30)
+    bob.right(45)
+    bob.forward(30)
+    bob.right(45)
+    bob.forward(30)
+    bob.right(45)
+
+
 
 
                   
